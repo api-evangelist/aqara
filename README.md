@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aqara is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://aqara.com/
+Aqara provides smart home automation devices and solutions, including sensors, hubs, controllers, cameras, door locks, lighting, and curtain controllers. Their platform integrates with Apple Home, Google Assistant, and other ecosystems, offering a unified app for device management and automation. Aqara focuses on privacy, security, and easy setup for consumers worldwide.
+
+**Areas:** Smart Home · IoT · Consumer Electronics · Home Automation · Security
+
+## Aqara on APIs.io
+
+Everything profiled for Aqara is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aqara/](https://apis.io/providers/aqara/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Aqara Automation API](https://apis.io/apis/aqara/aqara-automation-api/) — APIs for automation creation, editing, query, deletion, and capability query
+- [Aqara Device API](https://apis.io/apis/aqara/aqara-device-api/) — Device query, property read/write, and command execution APIs
+- [Aqara Gateway API](https://apis.io/apis/aqara/aqara-gateway-api/) — APIs for managing gateway subdevice pairing, binding, and unbinding operations
+- [Aqara Space API](https://apis.io/apis/aqara/aqara-space-api/) — Space management APIs
+- [Aqara Studio API](https://apis.io/apis/aqara/aqara-studio-api/) — Studio statistics query API
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (3)
+
+Event-driven and webhook contracts.
+
+- [Studio WebSocket API](https://apis.io/asyncapis/aqara/data-export-api-en/)
+- [Studio WebSocket API](https://apis.io/asyncapis/aqara/data-export-api-zh/)
+- [Studio HTTP Push Receiver API](https://apis.io/asyncapis/aqara/http-push-zh/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aqara Agentic Access](https://apis.io/agentic-access/aqara/aqara-agentic-access/)
+
+#### JSON Schema (10)
+
+The data models the API reads and writes.
+
+- [AutomationCapabilitiesResponse](https://apis.io/schemas/aqara/aqara-automation-capabilities-response/)
+- [CreateAutomationRequest](https://apis.io/schemas/aqara/aqara-create-automation-request/)
+- [CreateSpaceRequest](https://apis.io/schemas/aqara/aqara-create-space-request/)
+- [DeviceDefinitionsResponse](https://apis.io/schemas/aqara/aqara-device-definitions-response/)
+- [DevicesResponse](https://apis.io/schemas/aqara/aqara-devices-response/)
+- [SpacesResponse](https://apis.io/schemas/aqara/aqara-spaces-response/)
+- [SubdeviceJoinRequest](https://apis.io/schemas/aqara/aqara-subdevice-join-request/)
+- [TraitExecuteResponse](https://apis.io/schemas/aqara/aqara-trait-execute-response/)
+- [TraitValueResponse](https://apis.io/schemas/aqara/aqara-trait-value-response/)
+- [UpdateAutomationRequest](https://apis.io/schemas/aqara/aqara-update-automation-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aqara Context](https://apis.io/jsonld/aqara/aqara-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Aqara API Rules](https://apis.io/rules/aqara/aqara-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aqara Authentication](https://apis.io/security/aqara/aqara-authentication/)
+- [Aqara Domain Security](https://apis.io/security/aqara/aqara-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.aqara.com/en/)
+- [Documentation](https://www.aqara.com/en/)
+- [Getting started](http://docs.aqara.com/docs/aqara-studio/overview/introduction)
+- [Blog](https://www.aqara.com/en/blog)
+- [Terms of service](https://www.aqara.com/en/terms/)
+- [Privacy policy](https://www.aqara.com/en/privacy-policy/)
+- [GitHub](https://github.com/aqara)
+
+## API Evangelist rating
+
+**Kin Score 48.9** — developing · rubric 0.24.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 68.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 45.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | platform (partial credit) |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aqara/](https://apis.io/providers/aqara/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aqara: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aqara/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
